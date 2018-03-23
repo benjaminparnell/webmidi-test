@@ -1,0 +1,18 @@
+{
+  "name": "webmidi-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":
+      "shx cp ./index.html ./build/index.html && shx rm -rf build/* && browserify app.js > build/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.1.1",
+    "shx": "^0.2.2",
+    "webmidi": "^2.0.4"
+  }
+}
